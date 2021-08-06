@@ -19,21 +19,21 @@ npm run build
 |-- DQ-MALL
     |-- babel.config.js           
     |-- package-lock.json
-    |-- package.json               #项目依赖包的配置文件
+    |-- package.json                            #项目依赖包的配置文件
     |-- postcss.config.js
     |-- README.md
     |-- vue.config.js
     |-- public
     |-- src
-        |-- App.vue					#项目入口文件
-        |-- main.js				    #项目的核心文件
-        |-- assets				    #存放第三方静态资源
+        |-- App.vue				#项目入口文件
+        |-- main.js				#项目的核心文件
+        |-- assets				#存放第三方静态资源
         |   |-- css
         |   |-- img
-        |-- common					#公共的js文件
+        |-- common				#公共的js文件
         |-- components
         |   |-- common				#公共的组件
-        |   |   |-- gridView		#封装商品排列组件
+        |   |   |-- gridView		        #封装商品排列组件
         |   |   |-- navbar			#封装导航栏组件
         |   |   |-- scroll			#封装better-scroll组件
         |   |   |-- swiper			#封装轮播图组件
@@ -43,9 +43,9 @@ npm run build
         |       |-- Icon
         |       |-- mainTabbar
         |       |-- tabControl
-        |-- network					#与后端交互相关的js文件
-        |-- router					#路由js文件
-        |-- store					#仓库ja文件
+        |-- network				#与后端交互相关的js文件
+        |-- router				#路由js文件
+        |-- store				#仓库ja文件
         |-- views					
             |-- cart				#购物车页面
             |-- category			#商品分类页面
