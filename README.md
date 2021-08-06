@@ -1,4 +1,4 @@
-# xmgmail
+# DQ-mail
 
 ## Project setup
 ```
