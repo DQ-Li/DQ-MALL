@@ -72,7 +72,6 @@
       }
     },
     created() {
-      console.log('创建Home');
       // 1.请求多个数据
       this.getMultiData()
 

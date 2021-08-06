@@ -109,7 +109,6 @@
         }
       },
       titleClick(index) {
-        console.log(this.themeTops[index]);
         this.$refs.scroll.scrollTo(0, -this.themeTops[index], 100)
       },
       addToCart() {

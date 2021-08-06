@@ -16,11 +16,8 @@ export default function axios (option) {
     })
 
     instance.interceptors.response.use(response => {
-      // console.log('来到了response拦截success中');
       return response.data
     }, err => {
-      console.log('来到了response拦截failure中')
-      console.log(err)
       if (err && err.response) {
         switch (err.response.status) {
           case 400:

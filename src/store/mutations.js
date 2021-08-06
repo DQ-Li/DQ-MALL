@@ -1,6 +1,5 @@
 const mutations = {
   addCart (state, info) {
-    console.log(info)
     // 1.查看是否添加过
     const oldInfo = state.cartList.find(item => item.iid === info.iid)
 
